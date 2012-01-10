@@ -25,7 +25,7 @@ URL:		http://www.enlightenment.org/
 BuildRequires:	pkgconfig(edbus)
 BuildRequires:	pkgconfig(eina)
 BuildRequires:	pkgconfig(python)
-BuildRequires:	pkgconfig(python-dbus)
+BuildRequires:	pkgconfig(dbus-python)
 BuildRequires:	python-cython
 %py_requires -d
 
