@@ -11,7 +11,7 @@
 #cd ..; \
 #tar -Jcf python-e_dbus-$PKG_VERSION.tar.xz python-e_dbus/ --exclude .svn --exclude .*ignore
 
-%define svnrev  65723
+%define svnrev  71914
 
 Summary:	E_dbus bindings for Python 
 Name:		python-e_dbus
