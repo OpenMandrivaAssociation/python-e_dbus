@@ -7,6 +7,11 @@ Group:		Graphical desktop/Enlightenment
 URL:		https://www.enlightenment.org/
 Source0:	http://download.enlightenment.org/releases/BINDINGS/python/%{name}-%{version}.tar.bz2
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(edbus)
 BuildRequires:	pkgconfig(eina)
 BuildRequires:	pkgconfig(python)
